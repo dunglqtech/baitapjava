@@ -15,10 +15,12 @@ public class tonghaiso {
 		
 		System.out.print("mời nhập số thứ hai: ");
 		num2=banphim.nextDouble();
+		// tính toán
+		sum=num1+num2;
 		
-				
-		
-
+		//xuất ra
+		//System.out.print("tổng của hai số là: " + num1 + "và" + num2 + "là" + sum);
+		System.out.printf("tổng của %.2f và %.2f là %.2f ", num1, num2, sum);
 	}
 
 }
